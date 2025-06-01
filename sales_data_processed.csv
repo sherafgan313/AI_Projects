@@ -1,0 +1,11 @@
+transaction_id,product,category,price,quantity,region,sale_date,total_sales,normalized_sales
+1,Phone,Electronics,500.0,2,North,2025-01-01,1000.0,0.3930635838150289
+2,Laptop,Electronics,1200.0,1,South,2025-01-02,1200.0,0.47976878612716767
+3,Shirt,Clothing,30.0,5,North,2025-01-03,150.0,0.02456647398843931
+4,Phone,Electronics,500.0,3,West,2025-01-04,1500.0,0.6098265895953758
+5,Jacket,Clothing,46.666666666666664,2,East,2025-01-05,93.33333333333333,0.0
+6,Laptop,Electronics,1200.0,1,North,2025-01-06,1200.0,0.47976878612716767
+7,Shoes,Clothing,80.0,4,South,2025-01-07,320.0,0.09826589595375725
+8,Phone,Electronics,500.0,1,West,2025-01-08,500.0,0.1763005780346821
+9,Shirt,Clothing,30.0,6,East,2025-01-09,180.0,0.03757225433526012
+10,Laptop,Electronics,1200.0,2,South,2025-01-10,2400.0,1.0
