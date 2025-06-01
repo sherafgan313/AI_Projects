@@ -1,0 +1,6 @@
+id,age,salary,department,salary_normalized,department_encoded
+1,25,50000,HR,0.0,0
+2,30,60000,Engineering,0.5,1
+3,28,55000,Engineering,0.25,1
+4,35,70000,Finance,1.0,2
+5,27,52000,HR,0.1,0

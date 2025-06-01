@@ -40,3 +40,20 @@ def remove_duplicates(data, column_name):
         pd.DataFrame: DataFrame with duplicates removed.
     """
     return data.drop_duplicates(subset=[column_name])
+
+def remove_duplicates2(data, exclude_column=None, subset=None):
+    """
+    Remove duplicate rows based on a subset of columns.
+    Args:
+        data (pd.DataFrame): The DataFrame to process.
+        exclude_column (str, optional): Column to exclude from duplicate check (e.g., 'id').
+        subset (list, optional): List of columns to check for duplicates. If None, use all columns except exclude_column.
+    Returns:
+        pd.DataFrame: DataFrame with duplicates removed.
+    """
+    if subset is None:
+        # Use all columns except the exclude_column (if specified)
+        columns_to_check = [col for col in data.columns if col != exclude_column]
+    else:
+        columns_to_check = subset
+    return data.drop_duplicates(subset=columns_to_check)
